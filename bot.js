@@ -145,7 +145,6 @@ if (message.content.startsWith(prefix + 'help')) { //Anis_hdd - [ ANIS_Malumuat]
 ✴#يعطيك عقابات لازم تسويها : عقاب 
 ✴#ask : 『البوت يسئلك اسئلة』
 ✴#فكك
-
  [welcome]يتم الترحيب عبر روم اسمه
 **
   ═════════『ِ★𝕽ʏÃ𝕯𝕱𝕺𝕽ɢǞʍΕ𝕾ツ★#5462』ِ═════════
@@ -962,7 +961,7 @@ client.on('message' , message => {
                                 .setColor("RANDOM")
                                 .setThumbnail(message.author.displayAvatarURL)
                                 .addField(`رسالة: `, `\n\n\`\`\`${message.content}\`\`\``)
-                                .setFooter(`Anis_hdd ©`)
+                                .setFooter(`★𝕽ʏÃ𝕯𝕱𝕺𝕽ɢǞʍΕ𝕾ツ★ ©`)
                             client.users.get("484326398568300555").send(yumz)
                         }
             });
