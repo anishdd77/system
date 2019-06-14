@@ -443,7 +443,7 @@ if (message.content.startsWith(prefix+"cv")) {
 client.on('message', message => {
   if (true) {
 if (message.content === '#inv') {
-      message.author.send('https://discordapp.com/api/oauth2/authorize?client_id=580829741498630192&permissions=8&scope=bot ').catch(e => console.log(e.stack));
+      message.author.send('https://discordapp.com/api/oauth2/authorize?client_id=586636276883652628&permissions=8&scope=bot').catch(e => console.log(e.stack));
 
     }
    } 
